@@ -10,14 +10,14 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - SaaS Management
   - Access Governance
+  - Cost Optimization
+  - Deprovisioning
   - Identity Access Management
   - License Management
   - Provisioning
-  - Deprovisioning
+  - SaaS Management
   - Shadow IT
-  - Cost Optimization
 url: >-
   https://raw.githubusercontent.com/api-evangelist/corma/refs/heads/main/apis.yml
 created: '2026-03-16'

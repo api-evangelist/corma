@@ -1,6 +1,6 @@
 aid: corma
 name: Corma
-x-type: company
+kind: company
 description: >-
   Corma is a SaaS license and access governance platform for modern IT teams
   that automates SaaS discovery, access reviews, provisioning, and

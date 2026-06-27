@@ -42,7 +42,7 @@ common:
     url: https://www.corma.io/pricing
   - type: Blog
     url: https://www.corma.io/blog
-  - type: SignUp
+  - type: Signup
     url: https://app.corma.io/signup
   - type: Login
     url: https://app.corma.io/signin

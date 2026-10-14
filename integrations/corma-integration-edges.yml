@@ -2,6 +2,7 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://aws.amazon.com/marketplace/
+- okta/integrations/okta-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -19,3 +20,27 @@ edges:
   seller_name: Corma
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: Okta (own)
+  partner: okta
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.okta.com/integrations/corma_apiservice/
+  mirror_of: okta/integrations/okta-integration-edges.yml
+  apps:
+  - Corma
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Automation
+  badges:
+  - OKTA_VERIFIED
+  features:
+  - API
+  - CUSTOM_SOM
+source:
+- okta/integrations/okta-integration-edges.yml
